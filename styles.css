@@ -626,6 +626,59 @@ form .flex .input-box input:hover{
 
 
 
+/*review page start*/
+.review h1{
+    text-align: center;
+    padding: 10rem 0;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.review .review-container .slide{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+    animation: boxlayout 6s infinite;
+   /* box-shadow: 10px 15px rgba(137, 135, 131,0.3);*/
+
+}
+
+.review-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1rem;
+}
+
+.review .review-container .slide p{
+   font-size: 1rem;
+   line-height: 2;
+   margin: 2.5rem 0;
+}
+
+.review .review-container .slide span{
+    font-size: 1rem;
+    display: block;
+    margin: 2rem 0;
+ }
+
+.review .slide img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.review .slide img:hover{
+    width: 10.2rem;
+    height: 10.2rem;
+}
+
+
+/*review page start*/
+
+
 
 
 
@@ -652,6 +705,9 @@ form .flex .input-box input:hover{
     50% {box-shadow: 12px 18px 30px rgb(109, 115, 114) inset;}
 }
 
+@keyframes boxlayout{
+    50% { box-shadow: 15px 15px 10px rgba(137, 135, 131,0.3);}
+}
 
 
 
